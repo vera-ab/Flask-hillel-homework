@@ -1,4 +1,5 @@
 class Url:
+
     def __init__(self, scheme: str = '', authority: str = '', path=None, query=None, fragment: str = ''):
         self.scheme = scheme
         self.authority = authority
